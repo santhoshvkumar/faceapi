@@ -74,7 +74,7 @@ export const USER_AGENT =
   practices in the documentation for further recommendations.
 */
 
-export var FACEAPI_ENDPOINT = process.env.FACEAPI_ENDPOINT;
-export var FACEAPI_KEY = process.env.FACEAPI_KEY;
+export var FACEAPI_ENDPOINT = "https://kapiitalface.cognitiveservices.azure.com/";
+export var FACEAPI_KEY = "035ec5c35dd14e5291937e232aa8574a";
 
 export const mutex = new Mutex();
